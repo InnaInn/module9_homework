@@ -1,0 +1,55 @@
+body {
+    background-color: gainsboro;
+}
+
+.mainBlock {
+    margin: 0 auto;
+    max-width: 1000px;
+    background-color: white;
+}
+
+.inputBlock {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+
+.mainResult{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 200px;
+    margin: 20px;
+}
+
+.card-image{
+    display: block;
+    width: 200px;
+    height: 150px;
+}
+
+.mainButton{
+    border: none;
+    box-shadow: none;
+    cursor: pointer;
+    margin: 5px 10px;
+    padding: 15px 15px;
+    border-radius: 1px;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: white;
+    background: #315efb;
+
+}
+
+
+.mainInputOne, .mainInputTwo {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
